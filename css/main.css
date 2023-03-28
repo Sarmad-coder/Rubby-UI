@@ -1,0 +1,17 @@
+:root { font-family: 'Inter', sans-serif; }
+/* @supports (font-variation-settings: normal) {
+  :root { font-family: 'Inter var', sans-serif; }
+} */
+
+.btn_bg_color {
+  background: linear-gradient(0deg, #46B81E, #46B81E),
+      linear-gradient(0deg, #518D3C, #518D3C);
+
+}
+.btn_border_1px{
+  border: 1px solid linear-gradient(0deg, #518D3C, #518D3C);;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

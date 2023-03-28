@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <title>Document</title>
+    <link href="..//dist/output.css" rel="stylesheet" />
+    <link href="../css/profileMinimal.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="mx-auto w-full max-w-[550px] sm:px-0 px-8 pt-7">
+      <!-- Header  -->
+      <div name="header" class="flex w-full justify-between">
+        <div>
+          <img class="mr-2 inline-block" src="../assets/Vector 3.png" alt="" />
+          <img class="inline-block" src="../assets/RUUBY.png" alt="" />
+        </div>
+        <div>
+          <button
+            class="whitespace-nowrap rounded-md border border-black px-4 py-2 text-xs"
+          >
+            Get Your Card
+          </button>
+        </div>
+      </div>
+
+      <!-- Card  -->
+      <div
+        name="card"
+        class="card_bg_color mt-8 flex h-64 w-full flex-wrap relative rounded-3xl sm:flex-nowrap"
+      >
+        <div class="mt-11 ml-4 w-64 text-white">
+          <h1 class="text-4xl font-bold">Salveter John</h1>
+          <p class="mt-4 text-xs font-normal">
+            Director of Strategic Accounts at Waterfield Technologies
+          </p>
+        </div>
+
+        <div class="h-40 w-36 absolute m-auto left-0 right-0 top-40 border-8 border-white rounded-xl">
+          <img
+            class="h-full w-full object-cover rounded-md"
+            src="../assets/man-guy-male-denim.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <!-- main buttons  -->
+      <div name="card" class="mt-36 flex w-full flex-wrap gap-4 sm:flex-nowrap">
+        <button
+          class="w-full whitespace-nowrap rounded-md border border-slate-300 px-7 py-2 text-base font-semibold"
+        >
+          Save Contact
+        </button>
+        <button
+          class="btn_border_1px btn_bg_color w-full whitespace-nowrap rounded-md px-7 py-2 text-base font-medium text-white"
+        >
+          Exchange contact
+        </button>
+      </div>
+
+      <!-- main Content  -->
+      <div class="mt-16 w-full">
+        <h6 class="text-lg font-semibold">About</h6>
+        <p class="mt-4 text-base text-slate-400">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+          vulputate libero et velit interdum, ac aliquet odio mattis. Class
+          aptent taciti sociosqu ad litora torquent per conubia nostra, per
+          inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+          lobortis.Lorem ipsum dolor sit amet
+          <span style="display: none" id="seeMore"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum, ac aliquet odio mattis. Class
+            aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+            lobortis.Lorem ipsum dolor sit amet</span
+          >
+          <button
+            style="color: #ff643a"
+            onclick="seeMoreFunction()"
+            id="seeBtn"
+          >
+            See More
+          </button>
+        </p>
+      </div>
+
+      <!-- social media icons  -->
+      <div class="mt-16 w-full">
+        <h6 class="text-lg font-semibold">Social Media Links</h6>
+
+        <div class="mt-5 flex gap-5">
+          <div
+            class="flex h-11 w-11 items-center justify-center rounded-md bg-slate-100"
+          >
+            <img class="h-8 w-8" src="../assets/Google logo.png" alt="" />
+          </div>
+          <div
+            class="flex h-11 w-11 items-center justify-center rounded-md bg-slate-100"
+          >
+            <img class="h-8 w-8" src="../assets/Twitter logo.png" alt="" />
+          </div>
+          <div
+            class="flex h-11 w-11 items-center justify-center rounded-md bg-slate-100"
+          >
+            <img class="h-8 w-8" src="../assets/Facebook logo.png" alt="" />
+          </div>
+          <div
+            class="flex h-11 w-11 items-center justify-center rounded-md bg-slate-100"
+          >
+            <img class="h-8 w-8" src="../assets/Instagram logo.png" alt="" />
+          </div>
+          <div
+            class="flex h-11 w-11 items-center justify-center rounded-md bg-slate-100"
+          >
+            <img class="h-8 w-8" src="../assets/Linkdin logo.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- video  -->
+      <div class="mt-16 w-full">
+        <h6 class="text-lg font-semibold">Video</h6>
+        <div class="mt-4 overflow-hidden rounded-2xl">
+          <iframe
+            style="width: -webkit-fill-available"
+            height="280"
+            src="https://www.youtube.com/embed/D5R-TaU9cZU"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <p class="mt-4 text-base text-slate-400">
+          My favorite music genre is Synthwave. This is a mix of one of my
+          favorite artists set to my favorite decade... Enjoy!
+        </p>
+      </div>
+
+      <!-- contact info  -->
+      <div class="mt-16 w-full">
+        <h6 class="text-lg font-semibold">Contact Info</h6>
+        <div class="mt-9 flex gap-5">
+          <img class="h-fit" src="../assets/Mobile icon.png" alt="" />
+          <div
+            class="flex w-full items-end justify-between border-b-2 border-slate-300 pb-4"
+          >
+            <h6 class="text-base font-semibold">+1 345 4235 23546</h6>
+            <img class="h-fit" src="../assets/arrow icon.png" alt="" />
+          </div>
+        </div>
+        <div class="mt-5 flex gap-5">
+          <img class="h-fit" src="../assets/Email icon.png" alt="" />
+          <div
+            class="flex w-full items-end justify-between border-b-2 border-slate-300 pb-4"
+          >
+            <h6 class="text-base font-semibold" style="overflow-wrap: anywhere;">
+              christian.alvarez@waterfield.com
+            </h6>
+            <img class="h-fit" src="../assets/arrow icon.png" alt="" />
+          </div>
+        </div>
+        <div class="mt-5 flex gap-5">
+          <img class="h-fit" src="../assets/Location icon.png" alt="" />
+          <div
+            class="flex w-full items-end justify-between border-b-2 border-slate-300 pb-4"
+          >
+            <h6 class="text-base font-semibold">
+              Location: Parker CO United States
+            </h6>
+            <img class="h-fit" src="../assets/arrow icon.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <!-- logo  -->
+      <div class="mx-auto mt-28 mb-14 flex w-fit">
+        <p class="text-xs text-slate-400">Powered by</p>
+        <p class="text-xs">&nbsp; RUUBY &nbsp;</p>
+        <img class="h-4 w-3" src="../assets/Vector 3.png" alt="" />
+      </div>
+    </div>
+
+    <!-- javascript  -->
+    <script>
+      function seeMoreFunction() {
+        var moreText = document.getElementById("seeMore");
+        var btnText = document.getElementById("seeBtn");
+        if (moreText.style.display == "none") {
+          moreText.style.display = "inline";
+          btnText.innerHTML = "See Less";
+        } else {
+          moreText.style.display = "none";
+          btnText.innerHTML = "See More";
+        }
+      }
+    </script>
+  </body>
+</html>

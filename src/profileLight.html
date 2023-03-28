@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+    <title>Document</title>
+    <link href="..//dist/output.css" rel="stylesheet" />
+    <link href="../css/profileMinimal.css" rel="stylesheet" />
+    <link href="../css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="px-8 md:px-0">
+      <div class="mx-auto w-full max-w-[550px] pt-7 px-8 sm:px-0">
+        <!-- Header  -->
+        <div name="header" class="flex w-full justify-between">
+          <div>
+            <img
+              class="mr-2 inline-block"
+              src="../assets/Vector 3.png"
+              alt=""
+            />
+            <img class="inline-block" src="../assets/RUUBY.png" alt="" />
+          </div>
+          <div>
+            <button
+              class="whitespace-nowrap rounded-md border border-black px-4 py-2 text-xs"
+            >
+              Get Your Card
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="mx-auto mt-14 w-full max-w-[700px] border border-black rounded-2xl py-8 sm:p-20">
+        <!-- Card  -->
+        <div name="card" class="m-auto w-fit">
+          <div class="m-auto h-32 w-32 overflow-hidden rounded-full">
+            <img
+              class="h-full w-full object-cover"
+              src="../assets/man-guy-male-denim.jpg"
+              alt=""
+            />
+          </div>
+
+          <div class="m-2 sm:w-64 text-center">
+            <h1 class="text-2xl font-bold">Salveter John</h1>
+            <p class="mt-3 text-base font-normal">
+              Director of Strategic Accounts at Waterfield Technologies
+            </p>
+          </div>
+        </div>
+
+        <div class="m-auto mt-5 flex w-fit gap-5">
+          <img class="h-8 w-8" src="../assets/Google logo.png" alt="" />
+
+          <img class="h-8 w-8" src="../assets/Twitter logo.png" alt="" />
+
+          <img class="h-8 w-8" src="../assets/Facebook logo.png" alt="" />
+
+          <img class="h-8 w-8" src="../assets/Instagram logo.png" alt="" />
+
+          <img class="h-8 w-8" src="../assets/Linkdin logo.png" alt="" />
+        </div>
+
+        <!-- main buttons  -->
+        <div
+          name="card"
+          class="mt-36 flex w-full flex-wrap gap-4 sm:flex-nowrap"
+        >
+          <button
+            class="w-full whitespace-nowrap rounded-md border border-slate-300 px-7 py-2 text-base font-semibold"
+          >
+            Save Contact
+          </button>
+          <button
+            class="btn_border_1px btn_bg_color w-full whitespace-nowrap rounded-md px-7 py-2 text-base font-medium text-white"
+          >
+            Exchange contact
+          </button>
+        </div>
+
+        <!-- main Content  -->
+        <div class="mt-16 w-full">
+          <h6 class="text-lg font-semibold">About</h6>
+          <p class="mt-4 text-base text-slate-400">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate libero et velit interdum, ac aliquet odio mattis. Class
+            aptent taciti sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+            lobortis.Lorem ipsum dolor sit amet
+            <span style="display: none" id="seeMore"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+              vulputate libero et velit interdum, ac aliquet odio mattis. Class
+              aptent taciti sociosqu ad litora torquent per conubia nostra, per
+              inceptos himenaeos. Curabitur tempus urna at turpis condimentum
+              lobortis.Lorem ipsum dolor sit amet</span
+            >
+            <button
+              style="color: #ff643a"
+              onclick="seeMoreFunction()"
+              id="seeBtn"
+            >
+              See More
+            </button>
+          </p>
+        </div>
+      </div>
+
+      <!-- video  -->
+      <div class="mx-auto w-full max-w-[550px] px-8 sm:px-0 mt-16">
+        <div class="w-full">
+          <h6 class="text-lg font-semibold">Video</h6>
+          <div class="mt-4 overflow-hidden rounded-2xl">
+            <iframe
+              style="width: -webkit-fill-available"
+              height="286"
+              src="https://www.youtube.com/embed/D5R-TaU9cZU"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <p class="mt-4 text-base text-slate-400">
+            My favorite music genre is Synthwave. This is a mix of one of my
+            favorite artists set to my favorite decade... Enjoy!
+          </p>
+        </div>
+
+        <!-- contact info  -->
+        <div class="mt-16 w-full">
+          <h6 class="text-lg font-semibold">Contact Info</h6>
+          <div class="mt-9 flex gap-5">
+            <img class="h-fit" src="../assets/Mobile icon.png" alt="" />
+            <div
+              class="flex w-full items-end justify-between border-b-2 border-slate-300 pb-4"
+            >
+              <h6 class="text-base font-semibold">+1 345 4235 23546</h6>
+              <img class="h-fit" src="../assets/arrow icon.png" alt="" />
+            </div>
+          </div>
+          <div class="mt-5 flex gap-5">
+            <img class="h-fit" src="../assets/Email icon.png" alt="" />
+            <div
+              class="flex w-full items-end justify-between border-b-2 border-slate-300 pb-4"
+            >
+              <h6 class="text-base font-semibold" style="overflow-wrap: anywhere;">
+                christian.alvarez@waterfield.com
+              </h6>
+              <img class="h-fit" src="../assets/arrow icon.png" alt="" />
+            </div>
+          </div>
+          <div class="mt-5 flex gap-5">
+            <img class="h-fit" src="../assets/Location icon.png" alt="" />
+            <div
+              class="flex w-full items-end justify-between border-b-2 border-slate-300 pb-4"
+            >
+              <h6 class="text-base font-semibold">
+                Location: Parker CO United States
+              </h6>
+              <img class="h-fit" src="../assets/arrow icon.png" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- logo  -->
+        <div class="mx-auto mt-28 mb-14 flex w-fit">
+          <p class="text-xs text-slate-400">Powered by</p>
+          <p class="text-xs">&nbsp; RUUBY &nbsp;</p>
+          <img class="h-4 w-3" src="../assets/Vector 3.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- javascript  -->
+    <script>
+      function seeMoreFunction() {
+        var moreText = document.getElementById("seeMore");
+        var btnText = document.getElementById("seeBtn");
+        if (moreText.style.display == "none") {
+          moreText.style.display = "inline";
+          btnText.innerHTML = "See Less";
+        } else {
+          moreText.style.display = "none";
+          btnText.innerHTML = "See More";
+        }
+      }
+    </script>
+  </body>
+</html>
